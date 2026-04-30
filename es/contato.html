@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Artyrun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body class="bg-mesh min-h-screen text-slate-900 selection:bg-blue-100 flex flex-col">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center glass-light">
+        <a href="../es/index.html" class="flex items-center gap-2 cursor-pointer">
+            <div class="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
+                <i data-lucide="palette" class="text-white w-5 h-5"></i>
+            </div>
+            <span class="font-bold text-xl tracking-tight text-slate-900 font-sans">Artyrun</span>
+        </a>
+        
+        <div class="flex items-center gap-4">
+            <div class="relative group">
+                <button class="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 hover:border-blue-500/50 text-sm font-medium text-slate-900 transition-all bg-white/50 backdrop-blur">
+                    <i data-lucide="globe" class="w-4 h-4 text-blue-500"></i>
+                    <span class="uppercase">ES</span>
+                    <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                </button>
+                <div class="absolute right-0 mt-2 w-40 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden hidden group-hover:block">
+                    <a href="../contato.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">Português</a>
+                    <a href="../en/contato.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">English</a>
+                    <a href="../es/contato.html" class="block w-full text-left px-4 py-3 text-sm text-blue-500 font-bold hover:bg-slate-50">Español</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center pt-32 pb-24">
+        <section class="container mx-auto px-6 text-center max-w-4xl">
+            
+            <header class="mb-20 space-y-4">
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter text-slate-900">
+                    Contáctanos <span class="text-glow-blue text-blue-500">Aquí</span>.
+                </h1>
+                <p class="text-xl text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
+                    Estamos aquí para ayudarte a mantener la constancia. Elige cómo quieres hablar con nosotros.
+                </p>
+            </header>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+                <a href="#" class="group glass-light p-10 rounded-[2.5rem] card-hover flex flex-col items-center gap-6 border-transparent transition-all hover:border-blue-500/30">
+                    <div class="w-20 h-20 bg-blue-500/5 group-hover:bg-blue-500/10 rounded-3xl flex items-center justify-center text-blue-500 transition-colors">
+                        <i data-lucide="mail" class="w-10 h-10"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Correo</h3>
+                        <p class="text-slate-500 font-medium text-sm">Respuestas en 24h</p>
+                    </div>
+                </a>
+
+                <a href="#" class="group glass-light p-10 rounded-[2.5rem] card-hover flex flex-col items-center gap-6 border-transparent transition-all hover:border-blue-500/30">
+                    <div class="w-20 h-20 bg-blue-500/5 group-hover:bg-blue-500/10 rounded-3xl flex items-center justify-center text-blue-500 transition-colors">
+                        <i data-lucide="instagram" class="w-10 h-10"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Instagram</h3>
+                        <p class="text-slate-500 font-medium text-sm">Sigue las novedades</p>
+                    </div>
+                </a>
+
+                <a href="../es/faq.html" class="group glass-light p-10 rounded-[2.5rem] card-hover flex flex-col items-center gap-6 border-transparent transition-all hover:border-blue-500/30 relative overflow-hidden">
+                    <div class="absolute inset-0 bg-blue-500/5 group-hover:bg-blue-500/10 transition-colors"></div>
+                    <div class="relative z-10 w-20 h-20 bg-white rounded-3xl flex items-center justify-center text-blue-500 shadow-sm">
+                        <i data-lucide="help-circle" class="w-10 h-10"></i>
+                    </div>
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">FAQ</h3>
+                        <p class="text-slate-500 font-medium text-sm">Respuestas inmediatas</p>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-6 pb-16">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8 pt-16 border-t border-slate-100">
+            <a href="../es/index.html" class="flex items-center gap-3 cursor-pointer">
+                <div class="p-2 bg-blue-500 rounded-lg">
+                    <i data-lucide="palette" class="w-5 h-5 text-white"></i>
+                </div>
+                <span class="font-black text-2xl tracking-tighter text-slate-900">Artyrun</span>
+            </a>
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-sm font-bold text-slate-400">
+                <a href="../es/sobre.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Sobre</a>
+                <a href="../es/contato.html" class="text-blue-500 transition-colors uppercase tracking-widest">Contacto</a>
+                <a href="../es/faq.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">FAQ</a>
+            </div>
+            <p class="text-xs font-black text-slate-300 font-mono tracking-tighter">© 2026 ARTYRUN. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

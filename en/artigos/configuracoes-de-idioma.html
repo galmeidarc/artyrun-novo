@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language settings | Artyrun Help Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="../../css/global.css">
+</head>
+<body class="bg-mesh min-h-screen text-slate-900 selection:bg-blue-100 flex flex-col">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center glass-light border-b border-slate-200/50">
+        <a href="../../en/faq.html" class="flex items-center gap-3 cursor-pointer group">
+            <div class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center group-hover:border-blue-500 transition-colors">
+                <i data-lucide="arrow-left" class="w-5 h-5 text-slate-400 group-hover:text-blue-500"></i>
+            </div>
+            <span class="font-bold text-lg tracking-tight text-slate-900 font-sans hidden sm:block">Artyrun Help Center</span>
+        </a>
+        
+        <div class="flex items-center gap-4">
+            <div class="relative group">
+                <button class="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 hover:border-blue-500/50 text-sm font-medium text-slate-900 transition-all bg-white/50 backdrop-blur">
+                    <i data-lucide="globe" class="w-4 h-4 text-blue-500"></i>
+                    <span class="uppercase">EN</span>
+                    <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                </button>
+                <div class="absolute right-0 mt-2 w-40 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden hidden group-hover:block">
+                    <a href="../../artigos/configuracoes-de-idioma.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">PortuguÃªs</a>
+                    <a href="../../en/artigos/configuracoes-de-idioma.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">English</a>
+                    <a href="../../es/artigos/configuracoes-de-idioma.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">EspaÃ±ol</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-32 pb-24">
+        
+        <!-- Article Content -->
+        <article class="container mx-auto px-6 max-w-3xl">
+            <div class="glass-light p-10 md:p-16 rounded-[3rem] border border-slate-100 shadow-xl shadow-slate-200/50 relative overflow-hidden">
+                
+                <nav class="flex text-sm text-slate-500 font-medium mb-8" aria-label="Breadcrumb">
+                    <ol class="inline-flex items-center space-x-2">
+                        <li class="inline-flex items-center">
+                            <a href="../../en/faq.html" class="hover:text-blue-500 transition-colors">Artyrun Help Center</a>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <i data-lucide="chevron-right" class="w-4 h-4 mx-1"></i>
+                                <span class="text-slate-400">Account</span>
+                            </div>
+                        </li>
+                    </ol>
+                </nav>
+
+                <h1 class="text-3xl md:text-5xl font-black tracking-tight text-slate-900 mb-8">Language settings</h1>
+                
+                <div class="prose prose-lg text-slate-600 font-medium leading-relaxed">
+                    <p>Artyrun automatically detects your system language, but you can override it anytime. In your Profile Settings, look for the <strong>Language</strong> dropdown menu.</p><p>We currently support Portuguese, English, and Spanish. More languages will be added in the future by our community.</p>
+                </div>
+
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-6 pb-16">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8 pt-16 border-t border-slate-100">
+            <a href="../../en/index.html" class="flex items-center gap-3 cursor-pointer">
+                <div class="p-2 bg-blue-500 rounded-lg">
+                    <i data-lucide="palette" class="w-5 h-5 text-white"></i>
+                </div>
+                <span class="font-black text-xl tracking-tighter text-slate-900">Artyrun</span>
+            </a>
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-sm font-bold text-slate-400">
+                <a href="../../en/sobre.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">About</a>
+                <a href="../../en/contato.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Contact</a>
+                <a href="../../en/faq.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">FAQ</a>
+            </div>
+            <p class="text-xs font-black text-slate-300 font-mono tracking-tighter">Â© 2026 ARTYRUN</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

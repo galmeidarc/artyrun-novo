@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Ayuda | Artyrun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body class="bg-mesh min-h-screen text-slate-900 selection:bg-blue-100">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center glass-light">
+        <a href="../es/index.html" class="flex items-center gap-2 cursor-pointer">
+            <div class="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
+                <i data-lucide="palette" class="text-white w-5 h-5"></i>
+            </div>
+            <span class="font-bold text-xl tracking-tight text-slate-900 font-sans">Artyrun</span>
+        </a>
+        
+        <div class="flex items-center gap-4">
+            <div class="relative group">
+                <button class="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 hover:border-blue-500/50 text-sm font-medium text-slate-900 transition-all bg-white/50 backdrop-blur">
+                    <i data-lucide="globe" class="w-4 h-4 text-blue-500"></i>
+                    <span class="uppercase">ES</span>
+                    <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                </button>
+                <div class="absolute right-0 mt-2 w-40 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden hidden group-hover:block">
+                    <a href="../faq.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">Português</a>
+                    <a href="../en/faq.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">English</a>
+                    <a href="../es/faq.html" class="block w-full text-left px-4 py-3 text-sm text-blue-500 font-bold hover:bg-slate-50">Español</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-32 pb-24">
+        
+        <!-- Categories -->
+        <section class="container mx-auto px-6 max-w-6xl">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Category: Conta -->
+                <div class="glass-light p-8 rounded-[2rem] border-transparent card-hover">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6">
+                        <i data-lucide="user" class="w-6 h-6"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Cuenta</h2>
+                    <ul class="space-y-4">
+                        <li><a href="artigos/como-alterar-as-informacoes-da-conta.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo cambiar la información de la cuenta</a></li>
+                        <li><a href="artigos/como-gerenciar-notificacoes.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo gestionar notificaciones</a></li>
+                        <li><a href="artigos/como-excluir-sua-conta.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo eliminar tu cuenta</a></li>
+                        <li><a href="artigos/preciso-de-ajuda-para-fazer-login.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Necesito ayuda para iniciar sesión</a></li>
+                        <li><a href="artigos/configuracoes-de-idioma.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Configuración de idioma</a></li>
+                    </ul>
+                </div>
+
+                <!-- Category: Solução de Problemas -->
+                <div class="glass-light p-8 rounded-[2rem] border-transparent card-hover">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6">
+                        <i data-lucide="wrench" class="w-6 h-6"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Resolución de Problemas</h2>
+                    <ul class="space-y-4">
+                        <li><a href="artigos/como-registrar-um-check-in-retroativo.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Check-in retroactivo</a></li>
+                        <li><a href="artigos/como-modificar-atividades-para-meu-grupo.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Modificar actividades</a></li>
+                        <li><a href="artigos/meu-check-in-esta-indo-para-todos-os-grupos.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Check-in yendo a todos los grupos</a></li>
+                        <li><a href="artigos/como-reiniciar-pontuacao-em-um-desafio.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Reiniciar puntuación</a></li>
+                        <li><a href="artigos/como-redefinir-senha.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo restablecer la contraseña</a></li>
+                        <li><a href="artigos/falha-no-envio-do-check-in.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Error al enviar el check-in</a></li>
+                    </ul>
+                </div>
+
+                <!-- Category: Guia do Membro -->
+                <div class="glass-light p-8 rounded-[2rem] border-transparent card-hover">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6">
+                        <i data-lucide="book-open" class="w-6 h-6"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Guía del Miembro</h2>
+                    <ul class="space-y-4">
+                        <li><a href="artigos/tipos-de-grupos-desafios-e-clubes.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Desafíos y Clubes</a></li>
+                        <li><a href="artigos/como-entrar-em-um-grupo.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo unirse a un grupo</a></li>
+                        <li><a href="artigos/modos-de-pontuacao.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Modos de Puntuación</a></li>
+                        <li><a href="artigos/entendendo-as-classificacoes.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Entendiendo las Clasificaciones</a></li>
+                        <li><a href="artigos/fusos-horarios-e-pontuacao.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Zonas horarias y puntuación</a></li>
+                        <li><a href="artigos/competicoes-do-clube.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Competiciones del club</a></li>
+                    </ul>
+                </div>
+
+                <!-- Category: Guia do Administrador -->
+                <div class="glass-light p-8 rounded-[2rem] border-transparent card-hover">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Guía del Administrador</h2>
+                    <ul class="space-y-4">
+                        <li><a href="artigos/grupos-publicos-vs-privados.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Grupos Públicos vs Privados</a></li>
+                        <li><a href="artigos/como-editar-configuracoes-do-grupo.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo editar configuraciones</a></li>
+                        <li><a href="artigos/como-reiniciar-um-desafio.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo reiniciar un desafío</a></li>
+                        <li><a href="artigos/como-remover-ou-bloquear-alguem.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Cómo eliminar o bloquear a alguien</a></li>
+                    </ul>
+                </div>
+
+                <!-- Category: Extras -->
+                <div class="glass-light p-8 rounded-[2rem] border-transparent card-hover md:col-span-2 lg:col-span-2 bg-gradient-to-br from-blue-50 to-white">
+                    <div class="flex items-center gap-6 mb-6">
+                        <div class="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500">
+                            <i data-lucide="star" class="w-8 h-8"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-slate-900">Artyrun Premium</h2>
+                            <p class="text-slate-500 font-medium mt-1">Desbloquea todo el potencial de tu creatividad</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4">
+                        <li><a href="artigos/assinatura-premium.html" class="text-slate-600 hover:text-blue-500 font-medium transition-colors flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> Detalles de la Suscripción Premium</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-6 pb-16">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8 pt-16 border-t border-slate-100">
+            <a href="../es/index.html" class="flex items-center gap-3 cursor-pointer">
+                <div class="p-2 bg-blue-500 rounded-lg">
+                    <i data-lucide="palette" class="w-5 h-5 text-white"></i>
+                </div>
+                <span class="font-black text-2xl tracking-tighter text-slate-900">Artyrun</span>
+            </a>
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-sm font-bold text-slate-400">
+                <a href="../es/sobre.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Sobre</a>
+                <a href="../es/contato.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Contacto</a>
+                <a href="../es/faq.html" class="text-blue-500 transition-colors uppercase tracking-widest">FAQ</a>
+            </div>
+            <p class="text-xs font-black text-slate-300 font-mono tracking-tighter">© 2026 ARTYRUN. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
