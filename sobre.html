@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós | Artyrun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body class="bg-mesh min-h-screen text-slate-900 selection:bg-blue-100">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center glass-light">
+        <a href="index.html" class="flex items-center gap-2 cursor-pointer">
+            <div class="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
+                <i data-lucide="palette" class="text-white w-5 h-5"></i>
+            </div>
+            <span class="font-bold text-xl tracking-tight text-slate-900 font-sans">Artyrun</span>
+        </a>
+        
+        <div class="flex items-center gap-4">
+            <div class="relative group">
+                <button class="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 hover:border-blue-500/50 text-sm font-medium text-slate-900 transition-all bg-white/50 backdrop-blur">
+                    <i data-lucide="globe" class="w-4 h-4 text-blue-500"></i>
+                    <span class="uppercase">PT</span>
+                    <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                </button>
+                <div class="absolute right-0 mt-2 w-40 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden hidden group-hover:block">
+                    <a href="sobre.html" class="block w-full text-left px-4 py-3 text-sm text-blue-500 font-bold hover:bg-slate-50">Português</a>
+                    <a href="en/sobre.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">English</a>
+                    <a href="es/sobre.html" class="block w-full text-left px-4 py-3 text-sm text-slate-600 hover:bg-slate-50">Español</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-32 pb-24">
+        <section class="container mx-auto px-6 max-w-4xl">
+            
+            <header class="text-center mb-20 space-y-6">
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter text-slate-900">
+                    Nossa <span class="text-glow-blue text-blue-500">Missão</span>.
+                </h1>
+                <p class="text-xl text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
+                    Acreditamos que a consistência é a chave para desbloquear o verdadeiro potencial criativo. O Artyrun foi criado para ser o seu companheiro nessa jornada.
+                </p>
+            </header>
+
+            <div class="glass-light p-10 md:p-16 rounded-[3rem] space-y-12 shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                
+                <div class="relative z-10 space-y-8">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500">
+                            <i data-lucide="heart" class="w-6 h-6"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold tracking-tight text-slate-900">Nossa Filosofia</h2>
+                    </div>
+                    <div class="prose prose-lg text-slate-600 font-medium">
+                        <p class="mb-4">No mundo acelerado de hoje, é fácil perder o foco e deixar a criatividade de lado. Nós construímos o Artyrun com uma ideia simples em mente: transformar o hábito de criar em uma experiência diária, divertida e gratificante.</p>
+                        <p class="mb-4">Queremos construir uma comunidade onde o esforço diário é celebrado mais do que o talento inato. Onde errar faz parte do processo e onde cada check-in é uma pequena vitória contra a procrastinação.</p>
+                        <p>Nosso design e nossas mecânicas de gamificação não estão aqui para te prender a uma tela, mas sim para te incentivar a sair dela e criar algo incrível, todos os dias.</p>
+                    </div>
+                </div>
+
+                <hr class="border-slate-100">
+
+                <div class="relative z-10 space-y-8">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500">
+                            <i data-lucide="lightbulb" class="w-6 h-6"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold tracking-tight text-slate-900">Construa com a gente</h2>
+                    </div>
+                    <div class="prose prose-lg text-slate-600 font-medium">
+                        <p class="mb-6">Nós ouvimos nossa comunidade. Você tem uma ideia brilhante para um novo modo de desafio? Um recurso que tornaria seu fluxo de trabalho mais fácil? Queremos ouvir você.</p>
+                        <a href="contato.html" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded-full transition-all group">
+                            <span>Compartilhar uma ideia</span>
+                            <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-6 pb-16">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8 pt-16 border-t border-slate-100">
+            <a href="index.html" class="flex items-center gap-3 cursor-pointer">
+                <div class="p-2 bg-blue-500 rounded-lg">
+                    <i data-lucide="palette" class="w-5 h-5 text-white"></i>
+                </div>
+                <span class="font-black text-2xl tracking-tighter text-slate-900">Artyrun</span>
+            </a>
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-sm font-bold text-slate-400">
+                <a href="sobre.html" class="text-blue-500 transition-colors uppercase tracking-widest">Sobre</a>
+                <a href="contato.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Contato</a>
+                <a href="faq.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">FAQ</a>
+                <a href="termos.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Termos de Uso</a>
+                <a href="privacidade.html" class="hover:text-blue-500 transition-colors uppercase tracking-widest">Privacidade</a>
+            </div>
+            <p class="text-xs font-black text-slate-300 font-mono tracking-tighter">© 2026 ARTYRUN. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
